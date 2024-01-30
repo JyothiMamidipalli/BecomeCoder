@@ -25,3 +25,4 @@ int main()
 }
 
 //T.C-->O(n*log(log(n)))
+//No.of iterations will be less in this case
