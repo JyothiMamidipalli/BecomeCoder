@@ -26,3 +26,4 @@ int main()
 }
 
 //T.C-->O(n*log(log(n)))
+//It takes more no.of iterations
