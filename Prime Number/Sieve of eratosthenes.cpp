@@ -24,3 +24,5 @@ int main()
     cin>>n;
     prime(n);
 }
+
+//T.C-->O(n*log(log(n)))
