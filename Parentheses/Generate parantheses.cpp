@@ -25,6 +25,5 @@ int main()
 {
     int n;
     cin>>n;
-    string s;
     generateParentheses(0,1,"(",n);
 }
