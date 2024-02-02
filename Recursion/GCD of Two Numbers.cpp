@@ -1,17 +1,14 @@
 //To find the GCD (Greatest Common Divisor) of two numbers.
 
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
-int gcd(int a,int b)
-{
-	if(b==0 or a==0) return 0;
-	int c = min(a,b);
-	int d = max(a,b);
-	return (c,c%d);
+int gcd(int a, int b) {
+    if (b == 0) return a;
+    return gcd(b, a % b);
 }
-int main()
-{
-	int a,b;
-	cin>>a>>b;
-	cout<<gcd(a,b);
+int main() {
+    int a, b;
+    cin >> a >> b;
+    cout <<gcd(a, b) << endl;
+    return 0;
 }
